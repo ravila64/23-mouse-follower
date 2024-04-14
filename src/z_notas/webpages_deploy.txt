@@ -1,0 +1,13 @@
+1. deploying with vercel
+https://vercel.com/docs/cli/deploy
+
+2. netlify 
+https://www.netlify.com/blog/tags/deploy/
+
+3. railway
+https://railway.app/
+
+4. musica online
+https://flat.io/es
+no tiene que ver con deploy
+

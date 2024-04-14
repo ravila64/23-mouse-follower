@@ -19,7 +19,7 @@ const FollowMouse = () => {
     }
     // cleanup, cuando el componente se desmonta
     // cuando cambian las dependencias antes de ejecutar el efecto
-    return () => {
+    return () => {  // cleanup method, 
       console.log("cleanup");
       window.removeEventListener("pointermove", handleMove);
     };
@@ -53,6 +53,14 @@ const FollowMouse = () => {
           transform: `translate(${position.x}px,${position.y}px)`,
         }}
       />
+
+      <div>
+        <h3>Preguntas Entrevista React</h3>
+        <a href="https://github.com/midudev/preguntas-entrevista-react" target="_blank">
+          midudev-preguntas-envrevista-react
+        </a>
+      </div>
+
       <button onClick={() => setEnabled(!enabled)}>
         {enabled ? "Desactivar " : "Activar "}
         Seguir puntero
