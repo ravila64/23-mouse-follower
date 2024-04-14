@@ -1,0 +1,12 @@
+export function App() {
+  // const [mounted,setMounted] = useState(true);
+  return (
+    <main>
+      <FollowMouse />
+      {/* {mounted && <FollowMouse />}
+      <button onClick={()=> setMounted(!mounted)}>
+        Toogle mounted FollowMouse component
+      </button> */}
+    </main>
+  );
+}
